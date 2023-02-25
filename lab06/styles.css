@@ -1,0 +1,11 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1, h2 {color: darkslategray;}
+
+/*found way to change color of chart row from W3Schools - couldn't figure out other way*/
+tr:nth-child(even) {
+    background-color: darkseagreen;
+  }
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+
