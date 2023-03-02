@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--Questions:-->
+<!--1. <../lab02/contact.html-->
+<!--2. ../lab01/images2/logo.gif-->
+<!--3. ../index.html-->
+
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    
+    <body>
+        <nav>
+            <a href = "https://kspenc06-su.github.io/ist263/lab07/index.html">Home</a>
+            |
+            <a href = https://kspenc06-su.github.io/ist263/lab07/skills.html>Skills</a>
+            |
+            <a href = https://kspenc06-su.github.io/ist263/lab07/contact.html>Contact</a>
+        </nav>
+        <h1>Contact</h1>
+
+        Syracuse University
+        <br>Huntington Hall
+        <br>Syracuse, NY 13244
+
+        <p><a href= "mailto:kspenc06@syr.edu">kspenc06@syr.edu</a></p>
+
+        <p><a href="https://www.linkedin.com/in/kerryspenc/" target="_blank">My Linkedin Profile</a></p>
+
+        <p><img src="../images/logo-sized.png" alt="linkedin logo"></p>
+
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.018313436917!2d-76.13128404869043!3d43.041046179044805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30b1fc4a0f7%3A0x14b179d0fbf09210!2sBooth%20Hall!5e0!3m2!1sen!2sus!4v1675357750293!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+        <form action = "https://formspree.io/f/mqkopqol" method = "post">
+            <label for = "fullname">Full Name:</label>
+            <input type = "text" id = "fullname" name = "fullname">
+            <br>
+            <label for = "questions">Any Questions?:</label><br>
+            <textarea id = "questions" name = "questions" rows = "3" cols = "50"></textarea>
+            <br>
+            <p>Are you interested in hiring me?</p>
+            <input type = "radio" id = "yes" name = "hiring" value = "yes">
+            <label for = "yes">Yes</label>
+            <input type = "radio" id = "no" name = "hiring" value = "no">
+            <label for = "no">No</label>
+            <br>
+            <input type = "submit" value = "Send">
+        </form>
+    </body>
+
+</html>
