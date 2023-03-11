@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <style>
+            .img1 {
+                float: left;
+                margin-right: 10px;
+            }
+            .clear {
+                clear: both;
+            }
+            
+            .part2 {
+                display: flex;
+            }
+            .part2 article {padding: 20px;}
+            .article1, .article2, .article3 {
+                margin: 10px;
+            }
+            .article1 {
+                flex: 2;
+                order: 3;
+                background-color: #cce5ff;
+                border-radius: 1em;
+            }
+            .article2 {
+                flex: 1;
+                order: 2;
+            }
+            .article3 {
+                flex: 1;
+                order: 1;
+            }
+        </style>
+        
+        <article>
+            <img src = "Floats and Flexbox Practice.html" class = "img1" alt = "fruit">
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem beatae odit praesentium vel nulla unde ad, odio ea itaque impedit hic laboriosam sint explicabo nisi! Reiciendis repellendus laudantium adipisci a?</p>
+        </article>
+        <div class = "clear"></div>
+
+        <div class = "part2">
+            <article class = "article1">
+                <img src = "Floats and Flexbox Practice_files/unit81.jpg">
+            </article>
+            <article class = "article2">
+                <img src = "Floats and Flexbox Practice_files/unit8-2.jpg">
+            </article>
+            <article class = "article3">
+                <img src = "Floats and Flexbox Practice_files/unit8-3.jpg">
+            </article>
+        </div>
+    </body>
+</html>
+
+
+
