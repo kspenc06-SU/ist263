@@ -1,0 +1,102 @@
+body {
+    background-color: #ece4cd;
+    color: #2e2e36;
+}
+
+a:hover {
+    color: #d94e23;
+}
+
+h1, nav {
+    background-color: #d59345;
+}
+
+nav a {
+    color: #2e2e36;  
+}
+
+nav a:hover {
+    background-color: #b7aaaa;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+table {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+ aside {
+    background-color: #b7aaaa;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding-left: 15px;
+ }
+
+ .flex2 {
+    display: flex;
+    float: right;
+    padding: 20px;
+    word-spacing: 10px;
+ }
+
+ .networking {
+    width: 20%;
+ }
+
+ .excel {
+    width: 30%;
+ }
+
+ .css {
+    width: 30%;
+ }
+
+ .pic {
+    max-width: 100%;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        width: 150px;
+        display: block;
+    }
+    span {
+        display: none;
+    }
+}
+
+.skip {
+    background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solic #000000;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: -999px;
+}
+.skip:focus {
+    left: 10px;
+}
