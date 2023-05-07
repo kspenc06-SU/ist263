@@ -1,0 +1,222 @@
+body {
+    background-color: #FFF4E0;
+}
+
+nav {
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h1, nav {
+    background-color: #B46060;
+}
+
+/* home page */
+
+.intro {
+    font-size: 20px;
+    text-align: center; 
+}
+
+.state {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flag {
+    width: 40%;
+    float: right;
+    right: 150px;
+}
+
+.bird {
+    width: 50%;
+    float: right;
+}
+
+.flower {
+    width: 50%;
+    float: right;
+}
+
+
+.bullet1 {
+    display: flex;
+}
+
+.tn {
+    background-color: #FFBF9B;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.bullet2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nashville {
+    background-color: #FFBF9B;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.images {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: space-between;
+}
+
+/* tourist attraction page */
+
+.ryman {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    float: right;
+}
+
+.rymaninfo {
+    font-size: 25px;
+    background-color: #FFBF9B;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+}
+
+.auditorium {
+    display: flex;
+}
+
+.cent {
+    display: flex;
+}
+
+.centinfo {
+    font-size: 25px;
+    background-color: #FFBF9B;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+}
+
+.park {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    float: left;
+}
+
+.arena {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    float: right;
+}
+
+.bridgeinfo {
+    font-size: 25px;
+    background-color: #FFBF9B;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+}
+
+.bridge {
+    display: flex;
+}
+
+/* restaurants page */
+
+.chicken {
+    display: flex;
+}
+
+.chickeninfo {
+    font-size: 25px;
+    background-color: #FFBF9B;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+}
+
+.hattieb {
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    float: left;
+}
+
+.edleys {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    float: right;
+}
+
+.bbqinfo {
+    font-size: 25px;
+    background-color: #FFBF9B;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+}
+
+.bbq {
+    display: flex;
+}
+
+.broadway {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    float: right;
+}
+
+.downtowninfo {
+    font-size: 25px;
+    background-color: #FFBF9B;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: solid;
+}
+
+.downtown {
+    display: flex;
+}
+
+.bars {
+    display: flex;
+}
+
+.tootsies {
+    width: 30%;
+}
+
+.legends {
+    width: 30%;
+}
